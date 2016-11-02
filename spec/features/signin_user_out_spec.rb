@@ -9,13 +9,13 @@ RSpec.feature "Users signin out" do
     click_link "Sign in"
     fill_in "Email", with: @user.email
     fill_in "Password", with: @user.password
-    click_button "Sign in"
+    click_button "Log in"
   end
 
   scenario "sining out sucessfully" do
     visit "/"
 
-    click_link "Sign Out"
+    click_link "Sign out"
 
     expect(page).to have_content("Signed out successfully.")
   end
