@@ -12,6 +12,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'jquery-ui-rails', '5.0.5'
 
 group :development, :test do
   gem 'rspec-rails', '3.2.3'
